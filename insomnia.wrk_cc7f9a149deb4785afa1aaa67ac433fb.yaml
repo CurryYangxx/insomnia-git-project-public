@@ -25,6 +25,26 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: https://httpbin.org/get
+    name: New Request get
+    meta:
+      id: req_26e31f59d9fe4913b9fe269d01ece486
+      created: 1740990805663
+      modified: 1740990816886
+      isPrivate: false
+      sortKey: -1740990805663
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.0-beta.2
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
