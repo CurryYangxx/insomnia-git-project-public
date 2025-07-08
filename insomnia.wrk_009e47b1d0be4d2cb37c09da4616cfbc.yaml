@@ -4,6 +4,7 @@ meta:
   id: wrk_009e47b1d0be4d2cb37c09da4616cfbc
   created: 1740990378308
   modified: 1740990378308
+  description: ""
 collection:
   - url: https://httpbin.org/get
     name: New Request
@@ -12,11 +13,15 @@ collection:
       created: 1740990386474
       modified: 1740990399330
       isPrivate: false
+      description: ""
       sortKey: -1740990386474
     method: GET
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.2
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true

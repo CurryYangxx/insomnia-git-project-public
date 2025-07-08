@@ -4,6 +4,7 @@ meta:
   id: wrk_cc7f9a149deb4785afa1aaa67ac433fb
   created: 1740990414225
   modified: 1740990414225
+  description: ""
 collection:
   - url: https://httpbin.org/post
     name: New Request
@@ -12,11 +13,15 @@ collection:
       created: 1740990418532
       modified: 1740990426234
       isPrivate: false
+      description: ""
       sortKey: -1740990418532
     method: POST
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.2
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
@@ -32,11 +37,15 @@ collection:
       created: 1740990805663
       modified: 1740990816886
       isPrivate: false
+      description: ""
       sortKey: -1740990805663
     method: GET
     headers:
       - name: User-Agent
         value: insomnia/11.0.0-beta.2
+    scripts:
+      preRequest: ""
+      afterResponse: ""
     settings:
       renderRequestBody: true
       encodeUrl: true
